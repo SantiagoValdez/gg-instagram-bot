@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from InstagramAPI import InstagramAPI
 from time import sleep
 from random import randint
