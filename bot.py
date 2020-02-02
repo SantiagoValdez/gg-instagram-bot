@@ -40,8 +40,8 @@ def login_challenge(self, checkpoint_url):
 
 load_dotenv()
 
-username = os.getenv("USERNAME")
-password = os.getenv("PASSWORD")
+username = os.getenv("IG_USERNAME")
+password = os.getenv("IG_PASSWORD")
 client_id = os.getenv("R_CLIENT_ID")
 client_secret = os.getenv("R_SECRET")
 user_agent = os.getenv("R_U_AGENT")
